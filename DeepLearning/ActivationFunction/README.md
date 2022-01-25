@@ -13,7 +13,7 @@ The softmax function, also known as softargmax or normalized exponential functio
 ## Sigmoid
 
 A sigmoid function is a mathematical function having a characteristic "S"-shaped curve or sigmoid curve. A common example of a sigmoid function is the logistic function:
-<img src="https://render.githubusercontent.com/render/math?math={\displaystyle S(x)={\frac {1}{1+e^{-x}}}={\frac {e^{x}}{e^{x}+1}}=1-S(-x).}">
+> <img src="https://render.githubusercontent.com/render/math?math={\displaystyle S(x)={\frac {1}{1+e^{-x}}}={\frac {e^{x}}{e^{x}+1}}=1-S(-x).}">
 
 ## Softmax vs Sigmoid
 
