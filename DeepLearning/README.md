@@ -17,4 +17,3 @@ A hyperparameter that defines the number times that the learning algorithm will 
 - **Learning curves**: 
 It is common to create line plots that show epochs along the x-axis as time and the error or skill of the model on the y-axis. These plots are sometimes called learning curves. These plots can help to diagnose whether the model has over learned, under learned, or is suitably fit to the training dataset.
 
-
