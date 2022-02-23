@@ -1,5 +1,10 @@
 # Deep Learning
 
+## CNN vs RNN vs FC layer
+- CNN: usually used for extracting spatial relevance
+- RNN (LSTM): usually used for extracting temporal relevance
+- Fully connected layer: usually used before activation function (Softmax) in classifier
+
 ## Stochastic Gradient Descent
  
 ### Batch
