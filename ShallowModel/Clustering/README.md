@@ -1,4 +1,4 @@
-# Unsupervised Learning
+# Clustering
 
 ## Gaussian Mixture Model (GMM)
 
