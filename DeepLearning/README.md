@@ -32,3 +32,8 @@ It is common to create line plots that show epochs along the x-axis as time and 
 - Multitask learning: Giving a set of learning tasks, t1 , t2 , …, t(n), co-learn all tasks simultaneously. In other words, the learner optimizes the learning/performance across all of the n tasks through some shared knowledge.
 - Transfer learning: Giving a set of source domains/tasks t1, t2, …, t(n-1) and the target domain/task t(n), the goal is to learn well for t(n) by transferring some shared knowledge from t1, t2, …, t(n-1) to t(n). Note that the goal of transfer learning is to learn well only for the target task. Learning of the source task(s) is irrelevant.
 
+## Split learning vs Federated learning
+
+- Federated learning: Nets trained at Clients; Merged at server
+
+- Split learning: Nets split over network; Trained at both
