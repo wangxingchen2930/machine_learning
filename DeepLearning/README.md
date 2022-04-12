@@ -1,5 +1,6 @@
 # Deep Learning
 
+
 ## CNN vs RNN vs FC layer
 - CNN: usually used for extracting spatial relevance
 - RNN (LSTM): usually used for extracting temporal relevance
@@ -37,3 +38,8 @@ It is common to create line plots that show epochs along the x-axis as time and 
 - Federated learning: Nets trained at Clients; Merged at server
 
 - Split learning: Nets split over network; Trained at both
+
+
+## Great Learning Resource for Deep Learning
+
+Dive into Deep Learning: http://d2l.ai/index.html
