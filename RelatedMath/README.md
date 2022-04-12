@@ -19,6 +19,11 @@ overall goal: to prevent overfitting
 - It is the average number of bits required to represent an event from one distribution, compared to another distribution.
 - Cross-entropy is widely used in Deep Learning as a loss function to enable the learning. In that, the true probability distribution is the label and predicted distribution is the value from the current model.
 
+- commonly used in CNN as loss function
+- example: 
+><img src="https://latex.codecogs.com/gif.latex?{\begin{aligned}J(\mathbf%20{w}%20)\%20&=\%20{\frac%20{1}{N}}\sum%20_{n=1}^{N}H(p_{n},q_{n})\%20=\%20-{\frac%20{1}{N}}\sum%20_{n=1}^{N}\%20{\bigg%20[}y_{n}\log%20{\hat%20{y}}_{n}+(1-y_{n})\log(1-{\hat%20{y}}_{n}){\bigg%20]}\,,\end{aligned}}"/>
+where <img src="https://latex.codecogs.com/gif.latex?{\hat%20{y}}"/> is predicted vallue while <img src="https://latex.codecogs.com/gif.latex?{y}"/> is true value
+
 ### KL divergence
 
 - We can define cross-entropy as the sum of entropy and KL divergence.
@@ -28,3 +33,4 @@ overall goal: to prevent overfitting
 
 - Cross-Entropy: Average number of total bits to represent an event from Q instead of P.
 - Relative Entropy (KL Divergence): Average number of extra bits to represent an event from Q instead of P.
+
