@@ -4,6 +4,8 @@ Technically, deep learning CNN models to train and test, each input image will p
 
 Convolution of an image with different filters can perform operations such as edge detection, blur and sharpen by applying filters.
 
+*ReLU and max-pooling works better compared to signmoid and average pooling in CNN*.
+
 ## Strides
 
 Stride is the number of pixels shifts over the input matrix.
@@ -23,8 +25,5 @@ Pooling layers section would reduce the number of parameters when the images are
 - Average Pooling: Taking the largest element could also take the average pooling
 - Sum Pooling: Sum of all elements in the feature map call as sum pooling
 
-## Dropout Layer
-
-A single model can be used to simulate having a large number of different network architectures by randomly dropping out nodes during training. This is called dropout and offers a very computationally cheap and remarkably effective regularization method to reduce overfitting and improve generalization error in deep neural networks of all kinds.
 
 
