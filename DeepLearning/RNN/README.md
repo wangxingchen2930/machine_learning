@@ -20,3 +20,18 @@ It is noteworthy that hidden layers and hidden states refer to two very differen
 ## Gradient clipping
 
 Gradient clipping provides a quick fix to the gradient exploding. It ensures that the model does not diverge even when gradients blow up at some point during the training process.
+
+## Gated Recurrent Units (GRU)
+
+- Reset gates help capture short-term dependencies in sequences.
+- Update gates help capture long-term dependencies in sequences.
+
+## Long Short-term Memory (LSTM)
+
+This design is introduced to alleviate the vanishing gradient problem and to better capture long range dependencies within sequences.
+
+LSTMs have three types of gates: input gates, forget gates, and output gates that control the flow of information.
+
+### GRU vs LSTM
+-  The GRU is a slightly more streamlined variant that often offers comparable performance and is significantly faster to compute
+-  Training LSTMs and other sequence models (such as GRUs) are quite costly due to the long range dependency of the sequence. (addressed by transformers)
