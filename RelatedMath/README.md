@@ -34,3 +34,6 @@ where <img src="https://latex.codecogs.com/gif.latex?{\hat%20{y}}"/> is predicte
 - Cross-Entropy: Average number of total bits to represent an event from Q instead of P.
 - Relative Entropy (KL Divergence): Average number of extra bits to represent an event from Q instead of P.
 
+
+
+
