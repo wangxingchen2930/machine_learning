@@ -8,6 +8,10 @@ overall goal: to prevent overfitting
 - L0 and L1 can punish some 'useless' features to zero (**sparsity**) while L0 is more extreme than L1 which make it easier to push parameters to zero
 - L1 example: LASSO (which solves the nondifferentiable of L1 norm)
 
+### Dropout
+
+A single model can be used to simulate having a large number of different network architectures by randomly dropping out nodes during training. This is called dropout and offers a very computationally cheap and remarkably effective regularization method to reduce overfitting and improve generalization error in deep neural networks of all kinds.
+
 ## Entropy
 
 - Entropy in information theory can be defined as the expected number of bits of information contained in an event.

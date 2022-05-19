@@ -23,10 +23,6 @@ A hyperparameter that defines the number times that the learning algorithm will 
 - **Learning curves**: 
 It is common to create line plots that show epochs along the x-axis as time and the error or skill of the model on the y-axis. These plots are sometimes called learning curves. These plots can help to diagnose whether the model has over learned, under learned, or is suitably fit to the training dataset.
 
-## Dropout Layer
-
-A single model can be used to simulate having a large number of different network architectures by randomly dropping out nodes during training. This is called dropout and offers a very computationally cheap and remarkably effective regularization method to reduce overfitting and improve generalization error in deep neural networks of all kinds.
-
 
 ## Meta-learning vs Transfer learning
 
@@ -48,3 +44,5 @@ A single model can be used to simulate having a large number of different networ
 ## Great Learning Resource for Deep Learning
 
 Dive into Deep Learning: http://d2l.ai/index.html
+
+Some contents in this section borrow from it.
