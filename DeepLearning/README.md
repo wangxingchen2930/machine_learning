@@ -46,3 +46,8 @@ It is common to create line plots that show epochs along the x-axis as time and 
 Dive into Deep Learning: http://d2l.ai/index.html
 
 Some contents in this section borrow from it.
+
+## Acknowledgements
+
+Partly borrowed from Prof. Avi Kak and Prof. Charles Bouman's ECE 695DL.
+

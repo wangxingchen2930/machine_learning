@@ -35,3 +35,9 @@ Like the sigmoid function, the tanh (hyperbolic tangent) function also squashes 
 
 <img src="./tanh.svg" class="centerImage">
     
+## Gradient of Point-Wise Activation Function
+
+Gradient Matrix is
+- Diagonal
+- Sparse
+- Fast to compute and apply
