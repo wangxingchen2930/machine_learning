@@ -51,3 +51,5 @@ Some contents in this section borrow from it.
 
 Partly borrowed from Prof. Avi Kak and Prof. Charles Bouman's ECE 695DL.
 
+Partly borrowed from Prof. Hashemi's ECE 695ODL.
+
